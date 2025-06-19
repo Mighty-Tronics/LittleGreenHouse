@@ -44,7 +44,6 @@ U8X8_SSD1306_128X64_NONAME_HW_I2C u8x8(/* reset=*/ U8X8_PIN_NONE);
 //Intitialize triggers
 int HUMSOIL = 10;
 int L_DURATION = 0;
-bool L_DURATION_CHANGED = false ;
 int tempH = 0 ;
 int tempM = 0 ;
 int startTime = 0 ;
@@ -121,9 +120,9 @@ void Check_TrigSetup(){
       u8x8.setCursor(0,0);
       u8x8.print("Enter Setup Mode");
       delay(700);
-      Set_Hum_Trigger();  
-      Set_Light_Trigger();
       Set_RtcTimeDate();
+      Set_Hum_Trigger();
+      Set_Light_Trigger();      
       //debugln("Enter Setup");
       u8x8.clearDisplay();
       u8x8.setCursor(0,0);      
@@ -183,7 +182,7 @@ void Set_Light_Trigger(){
     u8x8.setCursor(0,0);
     u8x8.print("SET LIGHT");
     u8x8.setCursor(0,2);
-    u8x8.print("CURRENT: " + String(tempL) + "H");
+    u8x8.print("CURRENT: " + String(L_DURATION) + "H");
     u8x8.setCursor(0,4);
     if (tempL<10){
       u8x8.print("NEW: 0" + String(tempL) + "H");
@@ -211,7 +210,6 @@ void Set_Light_Trigger(){
   }while(digitalRead(GREEN)== LOW); 
   
   if (tempL != L_DURATION){
-    L_DURATION_CHANGED == true ;
     // set start time for the light...
     LstartH = Get_CurrentHours(rtc.getTimeStr()) ;
     LstartMN = Get_CurrentMinutes(rtc.getTimeStr()) ;
@@ -230,10 +228,7 @@ void Set_Light_Trigger(){
     else if (LstartH + L_DURATION > 24){
       LstopH = (LstartH + L_DURATION)-24 ;      
     } 
-      }
-  else{
-      L_DURATION_CHANGED == false ;     
-    }
+      }  
   delay(1000);
 }
 
