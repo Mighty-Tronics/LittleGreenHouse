@@ -11,7 +11,7 @@ This means you are free to:
 
 ## Attribution
 
-This design was created by **Mighty Tronics – www.mightytronics.com**  
+This design was created by **Mighty Tronics**  
 Project name: **Little Greenhouse**
 
 ## Firmware
@@ -27,4 +27,4 @@ You may share and adapt them freely, provided you credit the original author and
 ---
 
 For any commercial use, product integration, or contribution, please contact us:  
-📧 [contact@mightytronics.com](mailto:contact@mightytronics.com)
+📧 [info@mightytronics.eu](mailto:info@mightytronics.eu)
