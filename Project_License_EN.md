@@ -7,7 +7,7 @@ This means you are free to:
 - share or distribute it as long as you keep the same license,
 - integrate it into your own projects, provided they are also distributed under the same license.
 
-🔗 [Full text of the CERN-OHL-S v2 license](https://ohwr.org/project/cernohl)
+🔗 [Full text of the CERN-OHL-S v2 license](https://spdx.org/licenses/CERN-OHL-S-2.0.html)
 
 ## Attribution
 
