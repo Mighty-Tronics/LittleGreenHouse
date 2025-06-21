@@ -428,19 +428,7 @@ void Check_WaterBtn(int pin, int speed){
     } 
   }
 
-  /*Get current time and return in minutes
- int Get_CurrentTime(String tempTime){
-  String hr,mn ;
-  int hNow, mnNow, currentTime;
-  hr = tempTime.substring(0,2);
-  mn = tempTime.substring(3,5);
-  hNow = hr.toInt();
-  mnNow = mn.toInt();
-  currentTime = (hNow*60) + mnNow ;
-  return currentTime;  
- }*/
-
-  //Check light duration
+   //Check light duration
  void Check_LightDuration(){
    
   if (L_DURATION == 0){
