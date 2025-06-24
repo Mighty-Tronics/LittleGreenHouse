@@ -1,0 +1,10 @@
+Reference, Value, Footprint, Datasheet
+"BP1","Green","Button_Switch_THT:SW_PUSH-12mm","~"
+"BP2","RED","Button_Switch_THT:SW_PUSH-12mm","~"
+"BP3","YELLOW","Button_Switch_THT:SW_PUSH-12mm","~"
+"BP4","BLUE","Button_Switch_THT:SW_PUSH-12mm","~"
+"R11","10K","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~"
+"R12","10K","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~"
+"R13","10K","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~"
+"R14","10K","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~"
+"J1","Conn_01x06_Male","TerminalBlock:TerminalBlock_bornier-6_P5.08mm","~"
