@@ -1,0 +1,40 @@
+
+# Little Green House – Front Panel PCB (Facade)
+
+This repository contains the KiCad files for the **Little Green House Facade PCB**, designed as the front control and interface panel for the Little Green House system. It includes interface elements such as OLED display, buttons, and status indicators, routed on a separate PCB to allow modularity and front-mounting.
+
+## 📁 Files Overview
+
+### 🖥️ Design Files (KiCad)
+- `LittleGreenHouse-Facade.kicad_pcb`: PCB layout of the front panel
+- `LittleGreenHouse-Facade.sch`: Schematic
+- `LittleGreenHouse-Facade.pro`: Project settings
+- `LittleGreenHouse-Facade-cache.lib`: Cached components
+- `fp-info-cache`: Footprint cache (auto-generated)
+
+### 🧾 Netlist & BOM
+- `LittleGreenHouse-Facade.net`: Netlist file
+- `LittleGreenHouse-Facade.xml`: XML export for online BOM tools
+
+### 📐 Mechanical & Fabrication Files
+- `LittleGreenHouse-Facade-B_Cu.dxf`, `.svg`, `.pdf`: Bottom copper layer
+- `LittleGreenHouse-Facade-Edge_Cuts.dxf`, `.svg`, `.pdf`: Edge cut layer
+- `LittleGreenHouse-Facade-F_SilkS.pdf`: Front silkscreen layer
+
+### 🗃️ Backups
+- `*.bak`, `*.sch-bak`: Automatic KiCad backups of schematic and PCB
+
+## 🔧 How to Use
+
+1. Open in **KiCad** (v6 or later).
+2. Review or modify schematic and PCB.
+3. Export files for CNC, milling, or manufacturing.
+4. Integrate with the main **Little Green House** controller PCB.
+
+## 📜 License
+
+This design is published under the **CERN-OHL-S v2** license. It is freely reusable and modifiable under open hardware terms. See `LICENSE` for details.
+
+## 🌱 About
+
+Part of the [Little Green House Project](https://github.com/...), this front panel board is developed by **Mighty Tronics** as an open hardware interface for educational and hobbyist indoor plant automation.
