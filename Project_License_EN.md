@@ -8,7 +8,8 @@ This means you are free to:
 - integrate it into your own projects, provided they are also distributed under the same license.
 
 🔗 [Full text of the CERN-OHL-S v2 license](https://spdx.org/licenses/CERN-OHL-S-2.0.html)
-🔗 [Official link on the certification in Open source Hardware Association] (https://certification.oshwa.org/lu000001.html)
+
+🔗 [Official link on the certification in Open source Hardware Association](https://certification.oshwa.org/lu000001.html).
 
 ## Attribution
 
