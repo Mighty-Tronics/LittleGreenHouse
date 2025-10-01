@@ -22,4 +22,4 @@
 
 ## 📬 Contact
 
-[contact@mightytronics.com](mailto:contact@mightytronics.com)
+[info@mightytronics.eu](mailto:info@mightytronics.eu)
