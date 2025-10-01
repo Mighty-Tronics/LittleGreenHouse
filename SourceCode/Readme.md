@@ -54,4 +54,4 @@ This firmware is released under the **MIT License**. Feel free to use, modify, a
 
 ## 🌱 About
 
-Part of the [Little Green House](https://github.com/...) open hardware ecosystem by **Mighty Tronics**, this firmware brings life to the smart greenhouse controller.
+Part of the Little Green House open hardware ecosystem by **Mighty Tronics**, this firmware brings life to the smart greenhouse controller.
